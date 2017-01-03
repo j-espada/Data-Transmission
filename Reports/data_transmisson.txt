@@ -1,0 +1,24 @@
+https://www.techopedia.com/definition/824/forward-error-correction-fec
+
+Definition 
+
+Forward error correction (FEC) is a digital signal processing method used to increse data faithfulness.This method does this by adding redundant data, called error correcting code, prior to data transmission or storage. 
+
+This technique gives the receiver the ability to correct errors without a reverse channel to request the retransmission of data. 
+
+The first FEC code was the Hamming code, introduced in the early 1950s.
+
+How it Works
+
+FEC introduce redundancy to transmitted information using a predetermined algorithm. The redundant bits are complex functions of the original information bits. Bits are sent multiple times, because an error may appear in any of the samples transmitted. FEC codes generally detect the last set of bits to determine the decoding of a small handful of bits.
+
+
+Constant-Weight code
+
+Constant-weight code, also called an m of n code, is an error detection and correction code where all codewords share the same Hamming weight.
+
+Constant-weight codes, like Berger codes, can detect all unidirectional errors
+
+A(n,d,w)
+
+
